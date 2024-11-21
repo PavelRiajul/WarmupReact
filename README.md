@@ -3,3 +3,5 @@
 --> navbar create
 -->Homepage create
 -->Applying Routing
+
+-->Macking categories
