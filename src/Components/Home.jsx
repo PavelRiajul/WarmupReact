@@ -22,11 +22,12 @@ const getProductsCategory=async () =>{
 
 
 useEffect(()=>{
-  if(!filterProducts) setfilterProducts(products);
+  if(!filterProducts || category == 'undefined' ) 
+    setfilterProducts(products);
 if(category != 'undefined') getProductsCategory();
 },[category,products])
 
-console.log(filterProducts)
+//console.log(filterProducts)
 
   return ( products ?
     <>
